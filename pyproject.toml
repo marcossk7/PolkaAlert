@@ -11,6 +11,7 @@ pandas = "^2.2.3"
 requests = "^2.32.3"
 python-dotenv = "^1.0.1"
 sqlalchemy = "^2.0.36"
+python-telegram-bot = "^21.7"
 
 
 [build-system]
