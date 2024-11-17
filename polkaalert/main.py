@@ -39,7 +39,7 @@ async def main():
             message = create_message(oldprice, price, coin=COIN, price_status='atual')
             await send_telegram_message(message, send_all=SEND_ALL)
             
-        time.sleep(300)
+        await asyncio.sleep(600)
 
 
 asyncio.run(main())
